@@ -1,4 +1,4 @@
-# Cake Manager
+# Cat Manager
 
 This is a sample React microservices project. This uses a docker compose file for booting all applications up. Please make sure you have installed docker in your local environment before running this application.
 

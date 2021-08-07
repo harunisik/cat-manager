@@ -1,0 +1,14 @@
+# Docker Compose file Reference (https://docs.docker.com/compose/compose-file/)
+
+version: '3.7'
+
+# Define services
+services:
+  
+  frontend:
+    container_name: frontend
+    build:
+      context: frontend 
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
